@@ -1,15 +1,134 @@
 <!DOCTYPE html>
 <html>
-    <header class="TopOfThePage">
-        <!-- <a href="file:///C:/Users/yona2/OneDrive/Bureau/full%20stack/FSWD-PRO1/MainWindow.html">        
-        </a> -->
-        <button>
-            <img src="Logo.jpg">
-        </button>
+    <head>
+        <link rel="stylesheet" href="MainWindowStyle.css">
+    </head>
+
+    <header>
+        <a href="file:///C:/Users/yona2/OneDrive/Bureau/full%20stack/FSWD-PRO1/MainWindow.html">
+                <img src="Logo.png" alt="Image:Dream Cars" class="Logo-Properties">
+        </a>
     </header>
+
     <main>
-        <section></section>
-        <section></section>
+        <section>
+            <h2>Nos Categories</h2>
+            <!-- Navigation des catégories -->
+            <div class="categories-nav">
+                <button class="category-btn active">Cat 01</button>
+                <button class="category-btn">Cat 02</button>
+                <button class="category-btn">Cat 03</button>
+                <button class="category-btn">Cat 04</button>
+                <button class="category-btn">Cat 05</button>
+                <button class="category-btn">Cat 06</button>
+            </div>
+
+            <!-- Cartes des voitures -->
+            <div class="cards">
+                <div class="card">
+                    <div class="card-image">
+                        <span class="badge">Électrique</span>
+                        <img src="car1.jpg" alt="Porsche Macan 4">
+                    </div>
+                    <h3>Porsche Macan 4</h3>
+                    <p>Puissance : 408cv<br>CO2 : 0g</p>
+                    <p class="price">àpd <strong>2 322€</strong> /mois (htva)</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="car2.jpg" alt="Porsche Macan S">
+                    </div>
+                    <h3>Porsche Macan S</h3>
+                    <p>Puissance : 380cv<br>CO2 : 250g</p>
+                    <p class="price">àpd <strong>2 660€</strong> /mois (htva)</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-image">
+                        <img src="car3.jpg" alt="Porsche 718">
+                    </div>
+                    <h3>Porsche 718</h3>
+                    <p>Puissance : 300cv<br>CO2 : 220g</p>
+                    <p class="price">àpd <strong>2 370€</strong> /mois (htva)</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Nos Abonnements</h2>
+            <div class="abonnements">
+                <div class="bloc">
+                    <h3>Turismo Single</h3>
+                    <h4>Abonnement véhicule unique</h4>
+                    <p><strong>Tout compris</strong><br>
+                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
+                    </p>
+                    <p>Frais d'activation unique : <strong>750€</strong></p>
+                    <p><em>Mensualités selon le véhicule sélectionné</em></p>
+                    <button>S'abonner</button>
+                </div>
+                <div class="bloc">
+                    <h3>Turismo Plus</h3>
+                    <h4>Abonnement multi véhicules</h4>
+                    <p><strong>Tout compris</strong><br>
+                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
+                    </p>
+                    <p><strong>Pause</strong><br>
+                        Mettez en pause vos mensualités et n'en payez plus.
+                    </p>
+                    <p><strong>+15 modèles</strong><br>
+                        Accès aux véhicules de catégorie 1 à 2.
+                    </p>
+                    <p><strong>4 switches</strong><br>
+                        Changez de véhicule jusqu'à 4 fois par an.
+                    </p>
+                    <hr>
+                    <p>Abonnement : <strong>175€ / mois HTVA</strong></p>
+                    <p>Frais d'activation unique : <strong>1980€ HTVA</strong></p>
+                    <p><strong>Mensualités selon la catégorie de voiture :</strong></p>
+                    <ul>
+                        <li>Pause : 0€ / mois (pas de véhicule)</li>
+                        <li>01 : 2377€ - 2732€ / mois HTVA</li>
+                        <li>02 : 3152€ - 4247€ / mois HTVA</li>
+                    </ul>
+                    <button>S'abonner</button>
+                </div>
+                <div class="bloc">
+                    <h3>Turismo One</h3>
+                    <h4>Abonnement multi véhicules</h4>
+                    <p><strong>Tout compris</strong><br>
+                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
+                    </p>
+                    <p><strong>Pause</strong><br>
+                        Mettez en pause vos mensualités et n'en payez plus.
+                    </p>
+                    <p><strong>+40 modèles</strong><br>
+                        Accès à tous les véhicules.
+                    </p>
+                    <p><strong>Switchs illimités</strong><br>
+                        Changez de véhicule autant de fois que vous le souhaitez.
+                    </p>
+                    <hr>
+                    <p>Abonnement : <strong>249€ / mois HTVA</strong></p>
+                    <p>Frais d'activation unique : <strong>4780€ HTVA</strong></p>
+                    <p><strong>Mensualités selon la catégorie de voiture :</strong></p>
+                    <ul>
+                        <li>Pause : 0€ / mois (pas de véhicule)</li>
+                        <li>01 : 2377€ - 2732€ / mois HTVA</li>
+                        <li>02 : 3152€ - 4247€ / mois HTVA</li>
+                        <li>03 : 4595€ - 5671€ / mois HTVA</li>
+                        <li>04 : 5857€ - 7831€ / mois HTVA</li>
+                        <li>05 : 8686€ - 10685€ / mois HTVA</li>
+                        <li>06 : 16846€ / mois HTVA</li>
+                    </ul>
+                    <button>S'abonner</button>
+                </div>
+                
+            </div>
+            
+        </section>
     </main>
+
     <footer></footer>
+
 </html>

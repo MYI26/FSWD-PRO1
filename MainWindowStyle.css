@@ -1,3 +1,186 @@
-.TopOfThePage{
-    color: blue;
+html{
+    max-width: 1200px; /* Limite la largeur maximale du contenu */
+    margin: 0 auto; /* Centre tout le contenu horizontalement */
+    overflow-x: hidden; /* Cache tout débordement horizontal */
+}
+
+.Logo-Properties {
+    width: 150px; /* Ajustez la largeur souhaitée */
+    height: auto; /* Conserve les proportions de l'image */
+    margin-left: 1400px; /* Décale le bouton vers la droite */
+}
+
+header{
+    background-color: #bfc5cd;
+    width: 100vw; /* Assure que le header prend toute la largeur */
+    position: absolute; /* Permet de positionner précisément dans le parent */
+    top: 0; /* Aligne l'élément tout en haut */
+    left: 0; /* Aligne l'élément complètement à gauche */
+}
+
+section h2{
+    margin-top: 110px; /* Espace entre le logo et le texte */
+    margin-left: 800PX; /* Espace entre le logo et le texte */
+    margin-bottom: 50px;
+    font-size: 25px; /* Ajustez la taille selon vos besoins */
+    text-decoration: underline;
+}
+
+.categories {
+    padding: 200px;
+    background-color: #f8f9fa;
+}
+
+.categories-nav {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+
+.category-btn {
+    height:50px;
+    width: 250px;
+    padding: 10px 15px;
+    border: 2px solid #007BFF;
+    border-radius: 25px;
+    background-color: white;
+    color: #007BFF;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.category-btn.active, .category-btn:hover {
+    background-color: #007BFF;
+    color: white;
+}
+
+
+.abonnements {
+    display: flex; /* Aligne les blocs sur une seule ligne */
+    justify-content: space-around; /* Espace égal entre les blocs */
+    margin-top: 20px; /* Ajoute un espace au-dessus */
+}
+
+.bloc {
+    background-color: #FFFFFF; /* Fond blanc pour les blocs */
+    padding: 20px; /* Plus d'espacement intérieur */
+    border: 1px solid #E0E0E0; /* Bordure grise claire */
+    border-radius: 10px; /* Coins légèrement arrondis */
+    width: 28%; /* Ajustez la largeur */
+    text-align: left; /* Texte aligné à gauche */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet carte */
+    margin: 15px; /* Espacement autour des blocs */
+}
+
+.bloc:hover {
+    transform: translateY(-5px); /* Légère élévation au survol */
+    transition: 0.3s ease; /* Animation fluide */
+}
+
+.bloc h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000; /* Titre principal en noir */
+    margin-bottom: 10px;
+}
+
+.bloc h4 {
+    font-size: 16px;
+    color: #6C757D; /* Sous-titre en gris */
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.bloc p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 10px 0;
+    color: #4B4B4B; /* Texte légèrement plus foncé */
+}
+
+.bloc ul {
+    text-align: left;
+    margin: 10px 0;
+    padding-left: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #4B4B4B;
+}
+
+.bloc hr {
+    border: none;
+    border-top: 1px solid #E0E0E0; /* Ligne fine grise */
+    margin: 20px 0;
+}
+
+.bloc button {
+    display: block;
+    background-color: #007BFF; /* Bleu vif */
+    color: #FFFFFF; /* Texte blanc */
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 12px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 25px; /* Boutons très arrondis */
+    cursor: pointer;
+    text-align: center;
+    width: 100%; /* Bouton occupe toute la largeur */
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile */
+}
+
+.bloc button:hover {
+    background-color: #0056B3; /* Bleu plus foncé */
+    transition: background-color 0.3s ease;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 280px;
+    padding: 15px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-image {
+    position: relative;
+    width: 100%;
+    height: 180px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: bold;
 }

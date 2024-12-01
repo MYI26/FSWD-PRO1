@@ -1,134 +1,346 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         <link rel="stylesheet" href="MainWindowStyle.css">
     </head>
 
     <header>
-        <a href="file:///C:/Users/yona2/OneDrive/Bureau/full%20stack/FSWD-PRO1/MainWindow.html">
+        <a href="MainWindow.html">
                 <img src="Logo.png" alt="Image:Dream Cars" class="Logo-Properties">
         </a>
     </header>
 
     <main>
+        <section>       
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/zAFAadEcU3M?si=1AnantMEcCgRuCuU" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+          </iframe>
+          </section>
+
         <section>
-            <h2>Nos Categories</h2>
-            <!-- Navigation des catégories -->
-            <div class="categories-nav">
-                <button class="category-btn active">Cat 01</button>
-                <button class="category-btn">Cat 02</button>
-                <button class="category-btn">Cat 03</button>
-                <button class="category-btn">Cat 04</button>
-                <button class="category-btn">Cat 05</button>
-                <button class="category-btn">Cat 06</button>
-            </div>
-
-            <!-- Cartes des voitures -->
-            <div class="cards">
-                <div class="card">
-                    <div class="card-image">
-                        <span class="badge">Électrique</span>
-                        <img src="car1.jpg" alt="Porsche Macan 4">
-                    </div>
-                    <h3>Porsche Macan 4</h3>
-                    <p>Puissance : 408cv<br>CO2 : 0g</p>
-                    <p class="price">àpd <strong>2 322€</strong> /mois (htva)</p>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="car2.jpg" alt="Porsche Macan S">
-                    </div>
-                    <h3>Porsche Macan S</h3>
-                    <p>Puissance : 380cv<br>CO2 : 250g</p>
-                    <p class="price">àpd <strong>2 660€</strong> /mois (htva)</p>
-                </div>
-
-                <div class="card">
-                    <div class="card-image">
-                        <img src="car3.jpg" alt="Porsche 718">
-                    </div>
-                    <h3>Porsche 718</h3>
-                    <p>Puissance : 300cv<br>CO2 : 220g</p>
-                    <p class="price">àpd <strong>2 370€</strong> /mois (htva)</p>
-                </div>
-            </div>
-        </section>
-        <section>
-            <h2>Nos Abonnements</h2>
+            <h1>Our Suscriptions</h1>
             <div class="abonnements">
-                <div class="bloc">
-                    <h3>Turismo Single</h3>
-                    <h4>Abonnement véhicule unique</h4>
-                    <p><strong>Tout compris</strong><br>
-                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
+                <div class="bloc" id="item1">
+                    <h3>Dream Single</h3>
+                    <h4>Single vehicle subscription</h4>
+                    <p><strong>All inclusive</strong><br>
+                        An all-inclusive monthly payment: Rent, insurance, maintenance, summer/winter tires, driving tax.
                     </p>
-                    <p>Frais d'activation unique : <strong>750€</strong></p>
-                    <p><em>Mensualités selon le véhicule sélectionné</em></p>
-                    <button>S'abonner</button>
-                </div>
-                <div class="bloc">
-                    <h3>Turismo Plus</h3>
-                    <h4>Abonnement multi véhicules</h4>
-                    <p><strong>Tout compris</strong><br>
-                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
-                    </p>
-                    <p><strong>Pause</strong><br>
-                        Mettez en pause vos mensualités et n'en payez plus.
-                    </p>
-                    <p><strong>+15 modèles</strong><br>
-                        Accès aux véhicules de catégorie 1 à 2.
-                    </p>
-                    <p><strong>4 switches</strong><br>
-                        Changez de véhicule jusqu'à 4 fois par an.
-                    </p>
-                    <hr>
-                    <p>Abonnement : <strong>175€ / mois HTVA</strong></p>
-                    <p>Frais d'activation unique : <strong>1980€ HTVA</strong></p>
-                    <p><strong>Mensualités selon la catégorie de voiture :</strong></p>
-                    <ul>
-                        <li>Pause : 0€ / mois (pas de véhicule)</li>
-                        <li>01 : 2377€ - 2732€ / mois HTVA</li>
-                        <li>02 : 3152€ - 4247€ / mois HTVA</li>
-                    </ul>
-                    <button>S'abonner</button>
-                </div>
-                <div class="bloc">
-                    <h3>Turismo One</h3>
-                    <h4>Abonnement multi véhicules</h4>
-                    <p><strong>Tout compris</strong><br>
-                        Une mensualité tout compris : Loyer, assurance, entretien, pneus été/hiver, taxe de roulage.
-                    </p>
-                    <p><strong>Pause</strong><br>
-                        Mettez en pause vos mensualités et n'en payez plus.
-                    </p>
-                    <p><strong>+40 modèles</strong><br>
-                        Accès à tous les véhicules.
-                    </p>
-                    <p><strong>Switchs illimités</strong><br>
-                        Changez de véhicule autant de fois que vous le souhaitez.
-                    </p>
-                    <hr>
-                    <p>Abonnement : <strong>249€ / mois HTVA</strong></p>
-                    <p>Frais d'activation unique : <strong>4780€ HTVA</strong></p>
-                    <p><strong>Mensualités selon la catégorie de voiture :</strong></p>
-                    <ul>
-                        <li>Pause : 0€ / mois (pas de véhicule)</li>
-                        <li>01 : 2377€ - 2732€ / mois HTVA</li>
-                        <li>02 : 3152€ - 4247€ / mois HTVA</li>
-                        <li>03 : 4595€ - 5671€ / mois HTVA</li>
-                        <li>04 : 5857€ - 7831€ / mois HTVA</li>
-                        <li>05 : 8686€ - 10685€ / mois HTVA</li>
-                        <li>06 : 16846€ / mois HTVA</li>
-                    </ul>
-                    <button>S'abonner</button>
+                    <p>One-time activation fee: <strong>750$</strong></p>
+                    <p><em>Monthly payments depending on the vehicle selected</em></p>
+                    <button onclick="window.location.href='FormSubscription.html'">Subscribe</button>
                 </div>
                 
+                <div class="bloc"  id="item2">
+                    <h3>Dream Plus</h3>
+                    <h4>Multi-vehicle subscription</h4>
+                    <p><strong>All inclusive</strong><br>
+                        An all-inclusive monthly payment: Rent, insurance, maintenance, summer/winter tires, driving tax.
+                    </p>
+                    <p><strong>Pause</strong><br>
+                        Pause your monthly payments and pay no more.
+                    </p>
+                    <p><strong>+15 models</strong><br>
+                        Access to category 1 to 2 vehicles.
+                    </p>
+                    <p><strong>4 switches</strong><br>
+                        Change vehicles up to 4 times per year.
+                    </p>
+                    <hr>
+                    <p>Subscription : <strong>175$ / month VAT</strong></p>
+                    <p>One-time activation fee : <strong>1980$ VAT</strong></p>
+                    <p><strong>Monthly payments according to car category:</strong></p>
+                    <ul>
+                        <li>Pause : 0$ / month (no vehicle)</li>
+                        <li>01 : 2377$ - 2732$ / month VAT </li>
+                        <li>02 : 3152$ - 4247$ / mois VAT</li>
+                    </ul>
+                    <button onclick="window.location.href='FormSubscription2.html'">Subscribe</button>
+                </div>
+
+                <div class="bloc">
+                    <h3>Dream One</h3>
+                    <h4>Multi-vehicle subscription</h4>
+                    <p><strong>All inclusive</strong><br>
+                        An all-inclusive monthly payment: Rent, insurance, maintenance, summer/winter tires, driving tax.
+                    </p>
+                    <p><strong>Pause</strong><br>
+                        Pause your monthly payments and pay no more.
+                    </p>
+                    <p><strong>+40 models</strong><br>
+                        Access to all vehicles
+                    </p>
+                    <p><strong>Unlimited switches</strong><br>
+                        Change vehicles as many times as you want.
+                    </p>
+                    <hr>
+                    <p>Subscription : <strong>249$ / month VAT</strong></p>
+                    <p>One-time activation fee : <strong>4780$ VAT</strong></p>
+                    <p><strong>Monthly payments according to car category:</strong></p>
+                    <ul>
+                        <li>Pause : 0$ / month (no vehicle)</li>
+                        <li>01 : 2377$ - 2732$ / month VAT</li>
+                        <li>02 : 3152$ - 4247$ / month VAT</li>
+                        <li>03 : 4595$ - 5671$ / month VAT</li>
+                        <li>04 : 5857$ - 7831$ / month VAT</li>
+                        <li>05 : 8686$ - 1068$ / month VAT</li>
+                        <li>06 : 16846$ / month VAT</li>
+                    </ul>
+                    <button onclick="window.location.href='FormSubscription3.html'">Subscribe</button>
+                </div>
             </div>
             
         </section>
+         <section>
+            <div class="container">
+                <div class="element">
+                     <h1>Our Categories</h1>
+                </div>
+                <div class="element">  
+                        <select onchange="window.location.href=this.value;">
+                            <option value="#Cat1">Category 1</option>
+                            <option value="#Cat2">Category 2</option>
+                            <option value="#Cat3">Category 3</option>
+                            <option value="#Cat4">Category 4</option>
+                            <option value="#Cat5">Category 5</option>
+                            <option value="#Cat6">Category 6</option>
+                        </select>
+                </div>
+              </div>    
+
+            <!-- Cartes des voitures -->
+            <article class="cards">
+                <h2>Cat1</h2>
+                <a href="Porshe Macan 4.html">
+                    <div class="card" id="Cat1">
+                        <div class="card-image">
+                            <span class="badge">Electric</span>
+                            <img src="picture/PorsheMacan4.png">
+                        </div>
+                        <h3>Porsche Macan 4</h3>
+                        <p>Power : 408hp<br>CO2 : 0g</p>
+                        <p class="price">from <strong>2 322$</strong> /month (VAT)</p>
+                    </div>
+              </a>
+
+              <a href="Porshe Macan S.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="picture/PorsheMacanS.png">
+                    </div>
+                    <h3>Porsche Macan S</h3>
+                    <p>Power : 380hp<br>CO2 : 250g</p>
+                    <p class="price">from <strong>2 660$</strong> /month (VAT)</p>
+                </div>
+            </a>
+
+            <a href="porshe718.html">
+                <div class="card">
+                    <div class="card-image">
+                        <img src="picture/Porshe718.png">
+                    </div>
+                    <h3>Porsche 718</h3>
+                    <p>Power : 300hp<br>CO2 : 220g</p>
+                    <p class="price">from <strong>2 370$</strong> /month (VAT)</p>
+                </div>
+            </a>
+
+                <h2>Cat2</h2>
+                <a href="RangeRoverSportP460e.html">
+                <div class="card" id="Cat2">
+                    <div class="card-image">
+                        <span class="badge">Hybrid</span>
+                        <img src="picture/RangeRoverSportP460e.png">
+                    </div>
+                    <h3>Range Rover Sport P460e</h3>
+                    <p>Power : 460hp<br>CO2 : 20g</p>
+                    <p class="price">from <strong>4149$</strong> /month (VAT)</p>
+                </div>
+                </a>
+
+                <a href="BmwM3Touring.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/BmwM3Touring.png">
+                        </div>
+                        <h3>BMW M3 Competition xdrive</h3>
+                        <p>Power : 510hp<br>CO2 : 230g</p>
+                        <p class="price">from <strong>3337$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="MercedesGt53Amg.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/MercedesGt53Amg.png">
+                        </div>
+                        <h3>Mercedes GT53 AMG</h3>
+                        <p>Power : 435hp<br>CO2 : 207g</p>
+                        <p class="price">from <strong>3164$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <h2>Cat3</h2>
+                <a href="MercedesG63Amg.html">
+                    <div class="card" id="Cat3">
+                        <div class="card-image">
+                            <img src="picture/MercedesG63Amg.png">
+                        </div>
+                        <h3>Mercedes G163 AMG</h3>
+                        <p>Power : 585hp<br>CO2 : 341g</p>
+                        <p class="price">from <strong>5540$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="Aston Martin Vantage V8 Roadster.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/AstonMartinVantageRoadster.png">
+                        </div>
+                        <h3>Aston Martin Vantage V8 Roadster</h3>
+                        <p>Power : 510hp<br>CO2 : 263g</p>
+                        <p class="price">from <strong>4158$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="RangeRoverLwbP440e.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <span class="badge">Hybrid</span>
+                            <img src="picture/RangeRoverLwbP440e.png">
+                        </div>
+                        <h3>Range Rover Sport LWB P440e</h3>
+                        <p>Power : 440hp<br>CO2 : 21g</p>
+                        <p class="price">from <strong>4551$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <h2>Cat4</h2>
+                <a href="PorsheGt3.html">
+                    <div class="card" id="Cat4">
+                        <div class="card-image">
+                            <img src="picture/PorsheGt3.png">
+                        </div>
+                        <h3>Porshe -992 GT3</h3>
+                        <p>Power : 510hp<br>CO2 : 294g</p>
+                        <p class="price">from <strong>5717$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="FerrariRoma.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/FerrariRoma.png">
+                        </div>
+                        <h3>Ferrari Roma</h3>
+                        <p>Power : 620hp<br>CO2 : 255g</p>
+                        <p class="price">from <strong>5246$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="Porshe Gt4 Rs.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/PorsheGt4Rs.jpg">
+                        </div>
+                        <h3>Porshe GT4 RS</h3>
+                        <p>Power : 500hp<br>CO2 : 299g</p>
+                        <p class="price">from <strong>4975$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <h2>Cat5</h2>
+                <a href="LamborginiTechnica.html">
+                    <div class="card" id="Cat5">
+                        <div class="card-image">
+                            <img src="picture/LamborginiTechnica.png">
+                        </div>
+                        <h3>Lamborghini Tecnica</h3>
+                        <p>Power : 640hp<br>CO2 : 328g</p>
+                        <p class="price">from <strong>7576$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="LamborginiUrusPerformante.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/LamborginiUrusPerformante.png">
+                        </div>
+                        <h3>Lamborghini Urus Performante</h3>
+                        <p>Power : 666hp<br>CO2 : 320g</p>
+                        <p class="price">from <strong>8378$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+
+                <a href="PorsheGt3Rs.html">
+                    <div class="card">
+                        <div class="card-image">
+                            <img src="picture/PorsheGt3Rs.png">
+                        </div>
+                        <h3>Porshe GT3 RS</h3>
+                        <p>Power : 525hp<br>CO2 : 299g</p>
+                        <p class="price">from <strong>9047$</strong> /month (VAT)</p>
+                    </div>    
+                </a>
+
+                <h2>Cat6</h2>
+                <a href="LamborginiAvantadorSvg.html">
+                    <div class="card" id="Cat6">
+                        <div class="card-image">
+                            <img src="picture/LamborginiAvantadorSvg.png">
+                        </div>
+                        <h3>Lamborghini Aventador SVJ</h3>
+                        <p>Power : 770hp<br>CO2 : 486g</p>
+                        <p class="price">from <strong>13099$</strong> /month (VAT)</p>
+                    </div>
+                </a>
+            </article>
+        </section>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-info">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Conditions Of Use</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-social">
+                <h4>Follow us</h4>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">LinkedIn</a></li>
+                </ul>
+            </div>
+    
+            <div class="footer-contact">
+                <h4>Contact</h4>
+                <p>Address : 21 Havaad Aleumi</p>
+                <p>Téléphone : 02 45 85 45 78</p>
+                <p>Email : contact@dreamcars.com</p>
+            </div>
+
+            <div class="footer-logo">
+                <img src="logo-footer.png" alt="Logo de l'entreprise">
+                <p>© 2024 Dream Cars. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
 
 </html>

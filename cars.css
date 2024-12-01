@@ -1,0 +1,124 @@
+    html{
+        max-width: 1200px; /* Limite la largeur maximale du contenu */
+        margin: 0 auto; /* Centre tout le contenu horizontalement */
+    }
+
+    header{
+        background-color: #e4e6ec;
+        width: 100vw; /* Assure que le header prend toute la largeur */
+        position: absolute; /* Permet de positionner précisément dans le parent */
+        top: 0; /* Aligne l'élément tout en haut */
+        left: 0; /* Aligne l'élément complètement à gauche */
+    }
+
+    .Logo-Properties {
+        width: 150px; /* Ajustez la largeur souhaitée */
+        height: auto; /* Conserve les proportions de l'image */
+        margin-left: 360px; /* Décale le bouton vers la droite */
+    }
+
+    main{
+        padding-top: 100px; /* Compense la hauteur du header */
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+    }
+
+    .container {
+        display: flex; /* Active Flexbox */
+        background-color: #fff;
+        max-width: 1200px; /* Limite la largeur totale du conteneur */
+        padding-top: 7px;
+    }
+
+    .image-section {
+        text-align: center; /* Centre l'image horizontalement */
+        margin-right: 10px; /* Supprime tout espace supplémentaire à droite */
+    }
+
+    .image-section img{
+        border-radius: 20px; /* Arrondir les coins de l'image */
+    }
+
+    .info-section {
+        min-width: 200px; /*afin que le conteneur ne puisse pas lui reduire sa largeur moins de 200px */
+        padding: 30px;
+        border: 2px solid #3f3f3f; /* Ajoute une bordure */
+        border-radius: 20px;
+        height: 732px;
+        background-color: #f9f9f9;
+    }
+
+    .info-section h2 {
+        font-size: 24px;
+        color: #333;
+    }
+
+    .info-section p {
+        font-size: 16px;
+        color: #555;
+    }
+
+    .tarifs-section {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .tarifs-row {
+        display: grid;
+        grid-template-columns: 1fr 2fr; /* Deux colonnes : une pour les labels et une pour les valeurs */
+        gap: 10px;
+        align-items: center; /* Aligne le contenu verticalement au centre */
+    }
+
+    .label {
+        font-weight: bold;
+    }
+
+    .value {
+        color: #555;
+    }
+
+    @media (max-width: 1310px) {
+
+        .image-section img{
+        max-width: 650px;
+        }
+
+        .info-section{
+            max-height: 471px;
+        }
+    }
+
+    @media (max-width: 980px) {
+        
+        .container{
+            flex-direction: column;
+            align-items: center; /* Aligne le contenu verticalement au centre */
+        }
+
+        .image-section img{
+        max-width: 400px;
+        }
+
+        .info-section{
+            max-width: 330px;
+            max-height: 400px;
+        }
+
+        .Logo-Properties{
+            margin-left: 200px; 
+        }
+    }
+
+    @media (max-width: 380px) {
+        .info-section{
+            transform: scale(0.8); /* Réduit proportionnellement à 80% */
+            transform-origin: top left; /* Définit le point d'origine de la réduction */
+            max-height: 535px;
+        }
+
+        .Logo-Properties{
+            margin-left: 100px; 
+        }
+    }

@@ -24,7 +24,7 @@ main {
     min-height: 60vh; /* Prend 60% de la hauteur de la fenêtre */
     text-align: center;
     flex-direction: column;
-    background-image: url('backround.jpg');
+    background-image: url('picture/backround.jpg');
     background-size: cover; /* L'image couvre toute la zone */
     background-position: center center; /* Centrer l'image dans la fenêtre */
     background-repeat: no-repeat; /* Ne pas répéter l'image */
@@ -47,57 +47,6 @@ h2 {
     font-size: 18px;
     color: #333;
     margin-bottom: 20px;
-}
-
-.Form {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 30px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 50px;
-}
-.form-group {
-    margin-bottom: 20px;
-}
-.form-group label {
-    display: block;
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #333; 
-}
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-.form-group textarea {
-    resize: vertical;
-}
-.form-group input[type="radio"] {
-    width: auto;
-    margin-right: 10px;
-}
-.form-group button {
-    display: block;
-    width: 200px;
-    padding: 12px;
-    margin: 30px auto;
-    background-color: #007bff;
-    color: white;
-    font-size: 16px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
-}
-.form-group button:hover {
-    background-color: #0056b3;
 }
 
 

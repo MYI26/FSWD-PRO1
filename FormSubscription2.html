@@ -8,7 +8,7 @@
     <body>
         <header>
             <a href="MainWindow.html">
-                <img src="Logo.png" class="Logo-Properties">
+                <img src="picture/Logo.png" class="Logo-Properties">
             </a>
         </header>
         <main>
@@ -54,52 +54,52 @@
             <div class="Form">
                 <form action="Confirmation-Window.html" method="GET">
                     <div class="form-group">
-                        <label for="car-selection">Quelle voiture avez-vous choisie ?</label>
+                        <label for="car-selection">What is the first car you choose?</label>
                         <input type="text" id="nom" name="nom" placeholder="Voir Tableau" required>
                     </div>
 
                     <div class="form-group">
-                        <label>Avez-vous le permis depuis plus de 5 ans ?</label>
-                        <label><input type="radio" name="permis" value="oui" required> Oui</label>
-                        <label><input type="radio" name="permis" value="non" required> Non</label>
+                        <label>Have you had your license for more than 5 years?</label>
+                        <label><input type="radio" name="permis" value="oui" required> Yes</label>
+                        <label><input type="radio" name="permis" value="non" required> No</label>
                     </div>
 
                     <div class="form-group">
-                        <label for="nom">Nom</label>
+                        <label for="nom">Name</label>
                         <input type="text" id="nom" name="nom" required>
                         
-                        <label for="prenom">Prénom</label>
+                        <label for="prenom">First name</label>
                         <input type="text" id="prenom" name="prenom" required>
                     </div>
 
                     <div class="form-group">
-                        <label for="numero">Numéro</label>
+                        <label for="numero">Phone Number</label>
                         <input type="text" id="numero" name="numero" required>
                         
-                        <label for="email">Email</label>
+                        <label for="email">E-mail</label>
                         <input type="email" id="email" name="email" required>
                     </div>
     
                     <div class="form-group">
-                        <label for="adresse">Adresse :</label>
-                        <input type="text" id="adresse" name="adresse" placeholder="Rue" required>
-                        <input type="text" id="ville" name="ville" placeholder="Ville" required>
-                        <input type="text" id="code-postal" name="code-postal" placeholder="Code Postal" required>
+                        <label for="adresse">Address :</label>
+                        <input type="text" id="adresse" name="adresse" placeholder="Street" required>
+                        <input type="text" id="ville" name="ville" placeholder="City" required>
+                        <input type="text" id="code-postal" name="code-postal" placeholder="Postal Code" required>
                     </div>
             
                     <div class="form-group">
-                        <label>Location pour :</label>
-                        <label><input type="radio" name="location" value="particulier" required> Particulier</label>
-                        <label><input type="radio" name="location" value="entreprise" required> Entreprise</label>
+                        <label>Location for:</label>
+                        <label><input type="radio" name="location" value="particulier" required> Individual</label>
+                        <label><input type="radio" name="location" value="entreprise" required> Company</label>
                     </div>
             
                     <div class="form-group">
-                        <label for="notes">Notes / Questions :</label>
-                        <textarea id="notes" name="notes" rows="4" placeholder="Ajouter des notes ou des questions"></textarea>
+                        <label for="notes">Notes / Questions:</label>
+                        <textarea id="notes" name="notes" rows="4" placeholder="Add notes or questions"></textarea>
                     </div>
             
                     <div class="form-group">
-                        <button type="submit">Envoyer</button>
+                        <button type="submit">Send</button>
                     </div>
                 </form>
             </div>
@@ -108,21 +108,25 @@
             <div class="Footer-Grid">
                 <div class="Footer-Info">
                     <h4>Information</h4>
-                    <ul>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Conditions Of Use</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="ForAbout.html">About</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Conditions Of Use</a></li>
+                            <li><a href="ForThePrivacyPolicy.html">Privacy Policy</a></li>
+                        </ul>
+                    </nav>
                 </div>   
                 <div class="Footer-Social">
                     <h4>Follow us</h4>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Twitter</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">LinkedIn</a></li>
-                    </ul>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                        </ul>
+                    </nav>
                 </div>
                 <div class="Footer-Contact">
                     <h4>Contact</h4>
@@ -131,7 +135,7 @@
                     <p>Email : contact@dreamcars.com</p>
                 </div>
                 <div class="Footer-Logo">
-                    <img src="logo-footer.png" alt="Logo in white">
+                    <img src="picture/logo-footer.png" alt="Logo in white">
                     <p>© 2024 Dream Cars. All rights reserved.</p>
                 </div>
             </div>

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Important pour éviter les débordements */
+}
+html{
+    height: 100%; /* Assure que le body occupe toute la hauteur de la fenêtre */
+    background-color: #F3F4F1;
+}
+
+header{
+    background-color:#e4e6ec;
+}
+.Logo-Properties {
+    height: auto; 
+    width: 150px; 
+    margin-left: 360px; 
+}
+/* Style général pour le main */
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Prend 80% de la hauteur de la fenêtre */
+    padding: 20px;
+    background-color: #F3F4F1;
+}
+/* Conteneur pour centrer le PDF */
+.pdf-container {
+    width: 90%; /* Ajuste la largeur selon ton besoin */
+    max-width: 900px; /* Limite la largeur maximale */
+    height: 600px; /* Ajuste la hauteur du PDF */
+    overflow: hidden; /* Cache les débordements */
+    border-radius: 10px; /* Coins arrondis */
+    border: 1px solid #ccc; /* Bordure légère */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre autour du conteneur */
+}
+/* Optionnel : pour la bordure et l'ombre si tu préfères */
+embed {
+    border-radius: 8px;
+}

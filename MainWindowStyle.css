@@ -4,13 +4,11 @@ html{
     background-color: #F3F4F1;
     height: 100%; /* Assure que le body occupe toute la hauteur de la fenêtre */
 }
-
 .Logo-Properties {
     width: 150px; /* Ajustez la largeur souhaitée */
     height: auto; /* Conserve les proportions de l'image */
     margin-left: 360px; /* Décale le bouton vers la droite */
 }
-
 header{
     background-color:#e4e6ec;
     width: 100vw; /* Assure que le header prend toute la largeur */
@@ -23,7 +21,6 @@ main{
     margin-top: 120px; /* Compense la hauteur du header */
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
 }
-
 iframe {
     max-width: 100%; /* L'iframe sera responsive */
     width: 560px; /* Largeur de l'iframe */
@@ -31,7 +28,6 @@ iframe {
     display: block; /* Assure que l'iframe est un bloc */
     margin: 0 auto; /* Centre l'iframe horizontalement */
 }
-
 section h1{
     margin-top: 80px;
     margin-bottom: 40px;
@@ -45,7 +41,6 @@ section h1{
     justify-content: space-around; /* Espace égal entre les blocs */
     margin-top: 20px; /* Ajoute un espace au-dessus */
 }
-
 .bloc {
     background-color: #f9f9f9;
     padding: 20px; /* Plus d'espacement intérieur */
@@ -56,33 +51,28 @@ section h1{
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Ombre légère pour un effet carte */
     margin: 15px; /* Espacement autour des blocs */
 }
-
 .bloc:hover {
     transform: translateY(-5px); /* Légère élévation au survol */
     transition: 0.3s ease; /* Animation fluide */
 }
-
 .bloc h3 {
     font-size: 22px;
     font-weight: bold;
     color: #000; /* Titre principal en noir */
     margin-bottom: 10px;
 }
-
 .bloc h4 {
     font-size: 16px;
     color: #6C757D; /* Sous-titre en gris */
     margin-bottom: 15px;
     font-weight: normal;
 }
-
 .bloc p {
     font-size: 14px;
     line-height: 1.6;
     margin: 10px 0;
     color: #4B4B4B; /* Texte légèrement plus foncé */
 }
-
 .bloc ul {
     text-align: left;
     margin: 10px 0;
@@ -91,13 +81,11 @@ section h1{
     line-height: 1.5;
     color: #4B4B4B;
 }
-
 .bloc hr {
     border: none;
     border-top: 1px solid #E0E0E0; /* Ligne fine grise */
     margin: 20px 0;
 }
-
 .bloc button {
     display: block;
     background-color: #007BFF; /* Bleu vif */
@@ -112,20 +100,16 @@ section h1{
     width: 100%; /* Bouton occupe toute la largeur */
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2); /* Ombre subtile */
 }
-
 .bloc button:hover {
     background-color: #0056B3; /* Bleu plus foncé */
     transition: background-color 0.3s ease;
 }
-
 #item1{
     max-height: 340px;
 }
-
 #item2{
     max-height: 660px;
 }
-
 .container {
     display: flex;               /* Utilisation de Flexbox */
     flex-direction: column;      /* Aligne les éléments verticalement */
@@ -135,35 +119,29 @@ section h1{
     margin-top: 20px;            /* Ajuste l'espacement */
     margin-bottom: 20px;
   }
-  
-  .container h1 {
-    font-size: 24px;
-    margin-bottom: 10px;         /* Espace sous le titre */
-  }
-  
-  select {
-    padding: 5px 10px;           /* Espacement interne du select */
-    font-size: 16px;             /* Taille de la police */
-  }
-
+.container h1 {
+font-size: 24px;
+margin-bottom: 10px;         /* Espace sous le titre */
+}
+select {
+padding: 5px 10px;           /* Espacement interne du select */
+font-size: 16px;             /* Taille de la police */
+}
 h2{
     text-decoration: underline;
 }
-
 .cards {
+    margin-top: 14px;;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
 }
-
 /* Empêche le soulignement du lien */
 a {
     text-decoration: none; /* Enlève le soulignement */
     color: inherit; /* Laisse la couleur de texte inchangée, ou mets la couleur souhaitée */
 }
-
-
 .card {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
@@ -174,11 +152,9 @@ a {
     transition: transform 0.3s ease;
     margin-bottom: 40px;
 }
-
 .card:hover {
     transform: translateY(-10px);
 }
-
 .card-image {
     position: relative;
     width: 100%;
@@ -187,13 +163,11 @@ a {
     border-radius: 10px;
     margin-bottom: 15px;
 }
-
 .card-image img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-
 .badge {
     position: absolute;
     top: 10px;
@@ -217,7 +191,6 @@ footer {
     left: 0; /* Aligne l'élément complètement à gauche */
     margin-top: 4100px;
 }
-
 /* Grille de mise en page pour le footer */
 .footer-grid {
     display: grid; /* Utilisation de Grid */
@@ -226,39 +199,31 @@ footer {
     max-width: 1200px; /* Limite la largeur du footer */
     margin: 0 auto; /* Centre le footer */
 }
-
 .footer-info, .footer-social, .footer-contact {
     padding: 10px;
 }
-
 .footer-info h4, .footer-social h4, .footer-contact h4 {
     margin-bottom: 10px;
     font-size: 18px;
 }
-
 .footer-info ul, .footer-social ul {
     list-style: none;
     padding: 0;
 }
-
 .footer-info li, .footer-social li {
     margin-bottom: 10px;
 }
-
 .footer-info a, .footer-social a {
     color: #fff;
     text-decoration: none;
 }
-
 .footer-info a:hover, .footer-social a:hover {
     text-decoration: underline; /* Ajoute un effet de survol */
 }
-
 /* Style des différentes sections du footer */
 .footer-logo {
     text-align: center; /* Centrer le contenu */
 }
-
 .footer-logo img {
     margin-top: 40px;
     max-width: 150px; /* Largeur maximum pour le logo */
@@ -271,22 +236,17 @@ footer {
         flex-direction: column; /* Empiler les blocs de souscription */
         align-items: center; /* Centrer les éléments */
     }
-
     .bloc {
         width: 80%; /* Rendre les blocs plus larges sur petits écrans */
         margin: 10px 0;
     }
-
-
     .cards {
         flex-direction: column; /* Empiler les cartes verticalement */
         align-items: center; /* Centrer les cartes */
     }
-
     .card {
         width: 100%; /* Les cartes occupent toute la largeur sur mobile */
     }
-
     .footer-grid {
         grid-template-columns: repeat(2, 1fr); /* 2 colonnes sur mobile */
     }
@@ -305,8 +265,7 @@ footer {
         margin: 0;
         padding: 0;
         box-sizing: border-box; /* Important pour éviter les débordements */
-    }
-      
+    }   
 }
 
 @media (max-width: 480px) {
